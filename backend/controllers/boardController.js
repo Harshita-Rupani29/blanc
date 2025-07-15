@@ -3,7 +3,7 @@ const catchAsync = require("./../utils/catchAsync");
 const AppError = require("./../utils/appError");
 const authController = require("./authController");
 const User = require("./../models/userModel");
-const { request } = require("express");
+
 
 // this is for development puropse only
 // exports.getAllBoard = catchAsync(async (req, res, next) => {
